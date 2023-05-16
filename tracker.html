@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Expense Tracker</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Personal Expense Tracker</h1>
+  <div class="container">
+    <form id="expense-form">
+      <b><label for="name">Name:</label></b>
+      <input type="text" id="name" placeholder="Enter name" required>
+      <b><label for="amount">Amount:</label></b>
+      <input type="number" id="amount" placeholder="Enter amount" required>
+      <button type="submit" id="add-expense">Add Expense</button>
+    </form>
+    <table id="expense-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Amount</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="expense-table-body"></tbody>
+    </table>
+    <div id="total"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
