@@ -1,3 +1,4 @@
+![image](https://github.com/AshrafDesai/ExpenseTracker/assets/132386307/f5f530bb-24c8-43c5-bee6-a1c9280cbf27)
 
 # Expense Tracker
 
